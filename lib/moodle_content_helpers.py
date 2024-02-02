@@ -1,8 +1,8 @@
 import pandas as pd
-#import htppx
+import htppx
 import json
 import csv
-#import beautifulsoup4 as bs4
+import beautifulsoup4 as bs4
 
 class moodle_content_helpers:
     def __init__(self, moodle_rest) -> None:
